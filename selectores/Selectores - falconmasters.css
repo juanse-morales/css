@@ -1,0 +1,49 @@
+/**{
+	margin:0;
+	padding:0;
+}*/
+
+h2,h1{
+	color:white; /*Color de las tipografias, de las fuentes*/
+	background:rgb(1,69,79);
+	font-family:Algerian;
+}
+
+h1{
+	font-size:60px;
+	text-align:center;
+}
+
+h2{
+	font-size:80px;
+	text-align:center;
+}
+
+p{
+	color: blue;
+}
+
+a{
+	color:fuchsia;
+	font-size: 20px;
+}
+
+p a{
+	color:purple;
+	font-size:30px;
+}
+
+.demo{
+	color:green;
+}
+
+p .demo{
+	color:red;
+	/*font-size:5px;*/
+}
+
+a[href="https://www.google.com"]{
+	font-family:Algerian;
+	font-size:40px;
+	color:orange;
+}

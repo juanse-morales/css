@@ -1,0 +1,29 @@
+/*body{
+	/*background:#f2f2f2;
+	background:url(pato.jpg);
+	background-repeat:no-repeat;
+	/*background-repeat:repeat-x;
+	/*background-repeat:repeat-y;
+	/*background-attachment:fixed;
+	background-attachment:scroll;
+	color:white;
+}*/
+
+/*div {
+	background:url(pato.jpg);
+	/*background-attachment:fixed;
+	/*background-repeat:no-repeat;
+	/*width:400px;
+	/*height:400px; 
+	width:300px;
+	height:300px;
+	color:black;
+}*/
+
+body{
+	background:url(pato.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	/*background-position:500px 200px;*/
+	background-position:center 0;
+}
