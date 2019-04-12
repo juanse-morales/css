@@ -1,0 +1,5 @@
+CSS de alguna manera nos permite controlar el aspecto de presentacion de los elementos de un sitio web.
+
+CSS3 es lo mismo, en este caso es simplemente una actualizacion que agrega nuevas cosas no modifica las anteriores
+
+

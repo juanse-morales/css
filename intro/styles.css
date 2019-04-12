@@ -1,0 +1,8 @@
+/* Una regla CSS es todo el conjunto de grupos para poder darle estilos a un elemento,
+se compone de varias cosas: un selector que indica que aspecto se va a modificar (body), luego la propiedad que indica que se va a modificar del selector (background),
+luego el valor que en este caso es el color negro (código hexadecimal)*/
+
+body{
+	background: #000000;
+	color: #fff;
+}
