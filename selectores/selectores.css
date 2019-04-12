@@ -1,0 +1,55 @@
+/* Selector Universal 
+* {
+	margin:0;
+	padding:0;
+}
+*/
+
+/* Los selectores es la parte de la regla que permite indicar a que elemento se le va hacer cambios*/
+
+h2,h1 {
+	color:white; /*Color de las tipografias, de las fuentes*/
+	background:rgb(1,69,79);
+	font-family:Algerian;
+}
+
+h1{
+	font-size:60px; /* Tamaño de la fuente */
+	text-align:center;
+}
+
+h2{
+	font-size:80px; /* Tamaño de la fuente */
+	text-align:center;
+}
+
+p{ /* Apunta hacia todos los elementos p */
+	color: blue; 
+}
+
+a{ /* Todos los selectores a */
+	color:fuchsia;
+	font-size: 20px;
+}
+
+p a{ /* Selectores descendentes, no pasa nada si son varios desc. */
+	color:purple;
+	font-size:30px;
+}
+
+.demo{ /* Selectores de clases: para eso se usan las clases */
+	color:green;
+}
+
+p .demo{ /* solamente en los p las clases .demo */
+	color:red;
+	/*font-size:5px;*/
+}
+
+a[href="https://www.google.com"]{ /* selectores avanzados */
+	font-family:Algerian;
+	font-size:40px;
+	color:orange;
+}
+
+/* los ID (#) son obsoletos*/
