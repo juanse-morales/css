@@ -1,0 +1,26 @@
+h1 {
+  color: aqua; /* Existen 17 palabras claves, mas popular */
+  /* color: black;
+  color: red;
+  color: white; 
+  color: green; Lista en internet, https://htmlcolorcodes.com/es/# */
+}
+
+/* Decimal */
+h2 {
+  color: rgb(53,131,44);
+}
+
+/* Hexadecimal */
+h3 {
+  color: #4D9B44;
+}
+
+/* Porcentajes */
+h4 {
+  color: rgb(10%,20%,30%);
+}
+
+h5 {
+  color: rgba(49,163,229, 0.8); /* a: valor alpha, transparencia (0.0-1)*/
+}
