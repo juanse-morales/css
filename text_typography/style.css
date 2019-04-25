@@ -1,0 +1,27 @@
+h1 {
+  font-weight: normal;
+  text-align:right;
+  background: #ccc; /* Se puede centrar todo lo que sea tipo bloque */
+}
+
+p {
+  /* font-family:"Verdana", "Myriad Pro";*/
+  font-family:Arial, Helvetica, Sans-serif;
+  font-size:12pt;
+  font-weight: normal;
+  text-align:right;
+  background: ;
+  line-height:25px; /* Anchura de cada linea: interlineado; */
+  text-decoration: overline;
+  /* text-decoration: underline; */
+  /*text-transform:capitalize; /* Mayuscula cada inicial de la palabra */
+  text-transform: none;
+  /* letter-spacing: 20px; /* Espaciado entre letras : px */
+  letter-spacing: normal; /* Default */
+  word-spacing: 20px;
+  text-shadow: 1px 0px 0px #000;
+}
+
+a {
+  text-decoration: none;
+}
