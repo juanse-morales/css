@@ -1,64 +1,66 @@
-/* Es la unidad que se le pone a una propiedad para que tenga un valor,
-las unidades absoluta nos permite colocar un valor abosulto que no se modifica para nada y las relativas son flexibles porque se adapta mas fácilmente a nuestro trabajo y se puede acer cosas mejores con ellas */
+/* 
+Es la unidad que se le pone a un elemento para que tenga una medida,
+Es la unidad que se le pone a una propiedad para que tenga un valor,
+las unidades absoluta nos permite colocar un valor fijo que no se modifica para nada y las relativas son flexibles porque se adapta mas fácilmente a nuestro trabajo y se puede hacer cosas mejores con ellas */
 
 body{
-	font-size:16px; /* Relativa */
+  font-size:16px; /* Relativa */
 }
 
 div {
-	font-size: 20px; /* Valor de su elemento padre */
+  font-size: 20px; /* Valor de su elemento padre */
 }
 
 div p {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 div {
-	background: #000;
-	color: #fff;
-	/*width: 100px;*/
-	width: 100%;
+  background: #000;
+  color: #fff;
+  /*width: 100px;*/
+  width: 100%;
 }
 
 /*
 body{
-	font-size:16cm; /* Abosultas 
+  font-size:16cm; /* Abosultas 
 }
 
 body{
-	font-size:16mm; /* Abosultas 
+  font-size:16mm; /* Abosultas 
 }
 
 body{
-	font-size:16in; /* Pulgadas is Abosultas 
+  font-size:16in; /* Pulgadas is Abosultas 
 }
 
 
 div{
-	font-size:10px;
+  font-size:10px;
 }
 
 div p{
-	font-size:1em; /* Relativa design responsive
+  font-size:1em; /* Relativa design responsive
 }
 
 div {
-	font-size:10px;
+  font-size:10px;
 }
 
 div p{
-	font-size:2rem; /* Relativa 
+  font-size:2rem; /* Relativa 
 }
 
 div{
-	background:#000;
-	color:#fff;
-	/*width:100px;
-	width:50%;
+  background:#000;
+  color:#fff;
+  /*width:100px;
+  width:50%;
 }
 */
 
 h1{
-	color:aqua;
-	background:rgba(1,69,79,.8);
+  color:aqua;
+  background:rgba(1,69,79,.8);
 }
