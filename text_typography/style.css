@@ -14,7 +14,10 @@ p {
   line-height:25px; /* Anchura de cada linea: interlineado; */
   text-decoration: overline;
   /* text-decoration: underline; */
-  /*text-transform:capitalize; /* Mayuscula cada inicial de la palabra */
+  /* text-decoration: line-through; */
+  /*text-transform:capitalize; /* Mayuscula cada inicial de la palabra. */
+  /*text-transform:uppercase; /* Todas en Mayusculas. */
+  /*text-transform:lowercase; /* Todas en Minusculas. */
   text-transform: none;
   /* letter-spacing: 20px; /* Espaciado entre letras : px */
   letter-spacing: normal; /* Default */
