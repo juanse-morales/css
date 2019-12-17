@@ -1,0 +1,52 @@
+a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 20px 10px 0px;
+  display: inline-block;
+  background: #3BA7E1;
+  color: #fff;
+  box-shadow: 1px 5px 3px #1D64A6;
+}
+
+a:hover{
+  box-shadow: 1px 2px 1px #1D64A6;
+}
+
+a:active{
+  box-shadow: none;
+}
+
+/* Pseudoclases: nos permite aplicarle 
+estilos a los enlaces dependiendo del estado que 
+estos tengan .
+
+Los enlaces tienen 4 estados:
+1. de los enlaces que hemos visitado
+2. que no he visitado
+3. hover
+4. clic
+
+*/
+/*
+a:visited{ /* 1. Que hemos visitado 
+  color: #000;
+  
+}
+
+a:link { /* 2. Que no he visitado 
+  color: #DF1338;
+}
+
+a:hover { /* 3. Hover 
+  text-decoration: underline;
+  /* font-size: 30px; 
+  background: #000;
+  color: #fff;
+}
+
+a:active{ /* 4. clic 
+  background: #ff8000;
+}
+
+*/
