@@ -1,0 +1,15 @@
+div {
+  /*background: #ccc;*/
+  width: 100%;
+}
+
+img {
+  height: auto;
+  width: 300px; /* El Navegador le hace caso al CSS */
+  margin: auto; /* Para alinear la imagen horizontalmente */
+  display: block;
+  border-radius: 50px;
+  /* box-shadow: 5px 5px 10px yellow; */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
