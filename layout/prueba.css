@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #e6e6e6;
+}
+
+header, .main, footer{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header nav{
+  background: #528FD5;
+  overflow: hidden;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul li a:hover{
+  background: #75ACEC;
+}
+
+.main .articles{
+  width: 68.5%;
+  float: left;
+  margin-right: 1.5%;
+
+}
+
+.main .articles article{
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.main aside{
+  width: 30%;
+  float: left;
+  background: #ff8000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer{
+  background: #000;
+  clear: both;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+}
